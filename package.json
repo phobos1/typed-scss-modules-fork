@@ -1,5 +1,5 @@
 {
-  "name": "@phobos1/typed-scss-modules-fork",
+  "name": "typed-scss-modules-fork",
   "version": "0.0.1",
   "description": "TypeScript type definition generator for SCSS CSS Modules",
   "main": "dist/lib/index.js",
