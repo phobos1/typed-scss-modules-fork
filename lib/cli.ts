@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import yargs from "yargs";
-import { IMPLEMENTATIONS } from "./implementations";
 import { main } from "./main";
 import { Aliases, NAME_FORMATS } from "./sass";
 import { EXPORT_TYPES, LOG_LEVELS, QUOTE_TYPES } from "./typescript";
@@ -66,11 +65,6 @@ const { _: patterns, ...rest } = yargs
     string: true,
     choices: NAME_FORMATS,
     describe: "The name format that should be used to transform class names.",
-  })
-  .option("implementation", {
-    choices: IMPLEMENTATIONS,
-    describe:
-      "The SASS package to used to compile. This will default to the sass implementation you have installed.",
   })
   .option("exportType", {
     choices: EXPORT_TYPES,

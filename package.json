@@ -1,6 +1,6 @@
 {
   "name": "typed-scss-modules-fork",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "TypeScript type definition generator for SCSS CSS Modules",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
@@ -88,6 +88,7 @@
     "postcss": "^8.4.27",
     "postcss-modules": "^6.0.0",
     "reserved-words": "^0.1.2",
+    "sass-embedded": "1.89.2",
     "slash": "^3.0.0",
     "yargs": "^17.3.1"
   },
